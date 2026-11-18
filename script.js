@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (BUSINESS_EMAIL === "info@jaravault.com") {
         document.querySelector("#form-status").textContent =
-          "Please add your real business email in script.js before using this form.";
+          "";
         return;
       }
 
